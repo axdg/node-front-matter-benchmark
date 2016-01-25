@@ -6,15 +6,14 @@
   "scripts": {
     "test": "echo \" > This is just a benchmark, no tests\"",
     "lint": "./node_modules/eslint/bin/eslint.js index.js || :",
-    "benchmark": "node index.js 2>&1 | tee ./results.txt"
+    "benchmark": "node index.js 2>&1 | tee ./benchmarks.txt"
   },
   "author": "axdg <axdg@dfant.asia>",
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^4.1.6",
     "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^3.1.0",
-    "lorem-ipsum": "^1.0.3"
+    "eslint-config-airbnb": "^3.1.0"
   },
   "dependencies": {
     "benchmark": "^2.0.0",
