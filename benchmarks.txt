@@ -1,0 +1,25 @@
+regular post:
+  front-matter x 123,551 ops/sec ±2.95% (71 runs sampled)
+  gray-matter x 147,051 ops/sec ±2.13% (80 runs sampled)
+  dsfm x 176,588 ops/sec ±1.89% (78 runs sampled)
+
+complex front-matter:
+  front-matter x 3,318 ops/sec ±2.18% (79 runs sampled)
+  gray-matter x 4,731 ops/sec ±1.96% (80 runs sampled)
+  dsfm x 4,775 ops/sec ±2.18% (81 runs sampled)
+
+empty:
+  front-matter x 5,446,437 ops/sec ±1.88% (80 runs sampled)
+  gray-matter x 21,347,034 ops/sec ±1.99% (79 runs sampled)
+  dsfm x 8,273,252 ops/sec ±1.78% (81 runs sampled)
+
+no front-matter:
+  front-matter x 2,614,889 ops/sec ±1.97% (80 runs sampled)
+  gray-matter x 9,184,989 ops/sec ±1.95% (80 runs sampled)
+  dsfm x 18,907,182 ops/sec ±1.91% (80 runs sampled)
+
+no body:
+  front-matter x 137,321 ops/sec ±2.22% (80 runs sampled)
+  gray-matter x 149,984 ops/sec ±2.06% (80 runs sampled)
+  dsfm x 176,898 ops/sec ±1.97% (80 runs sampled)
+

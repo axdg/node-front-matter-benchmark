@@ -12,6 +12,7 @@ var body = 'some arbitrary content';
 var head = '---\nfoo: bar\nbar: baz\n---\n';
 var complex = fs.readFileSync('complex.yaml', 'utf-8');
 
+// benchmarks
 make('regular post', head + body).run();
 make('complex front-matter', complex + body).run();
 make('empty', '').run();
