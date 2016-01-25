@@ -25,7 +25,7 @@ This suite will will run five benchmarks for each modules [yaml](yaml.org) front
 ## Install
 
 ```
-$ git clone https://github.com/axdg/nfmb.git && cd nfmb
+$ git clone https://github.com/axdg/nfmb.git && cd nfmb && npm install
 ```
 
 ## Usage
